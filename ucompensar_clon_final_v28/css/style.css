@@ -1,0 +1,746 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header.hero {
+    padding: 2rem;
+    color: white;
+    text-align: center;
+}
+header.hero nav {
+    margin-top: 1rem;
+}
+header.hero nav a {
+    margin: 0 1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero.inicio { background-color: #003366; }
+.hero.ambiente { background-color: #004080; }
+.hero.beneficios { background-color: #0059b3; }
+.hero.inscripcion { background-color: #0066cc; }
+.hero.plan { background-color: #0073e6; }
+.hero.perfil { background-color: #0080ff; }
+
+.seccion {
+    padding: 2rem;
+}
+.bg1 {
+    background: linear-gradient(90deg, #f2f2f2, #e6f7ff);
+}
+.bg2 {
+    background: linear-gradient(90deg, #ffffff, #ccf2ff);
+}
+.bg3 {
+    background: linear-gradient(90deg, #e6ffe6, #ccffcc);
+}
+form input, form textarea {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+form button {
+    padding: 0.5rem 1rem;
+    background-color: #004080;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+blockquote {
+    background-color: #f0f8ff;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-left: 5px solid #007acc;
+    font-style: italic;
+}
+details {
+    background: #eef;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+}
+form input, form textarea {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #004080;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #003366;
+}
+
+
+.hero {
+    background-color: #f57c00;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.hero .logo {
+    height: 50px;
+    margin-bottom: 10px;
+}
+nav {
+    margin-top: 10px;
+}
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+.menu-toggle {
+  display: none;
+  background: #f57c00;
+  color: white;
+  border: none;
+  font-size: 24px;
+  padding: 10px;
+}
+.nav-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.nav-menu.open {
+  display: block;
+}
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.galeria {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.galeria img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.logo {
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+/* Paleta extendida */
+body {
+    background-color: #fafafa;
+    color: #111;
+}
+.seccion.bg1 {
+    background: linear-gradient(to right, #fff3e0, #ffe0b2);
+}
+.seccion.bg2 {
+    background: linear-gradient(to right, #fbe9e7, #fbe9e7);
+}
+.seccion.bg3 {
+    background: linear-gradient(to right, #eceff1, #cfd8dc);
+}
+footer {
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+blockquote {
+    background-color: #212121;
+    color: #fff;
+    border-left: 4px solid #f57c00;
+}
+details {
+    background: #333;
+    color: white;
+}
+form {
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+/* DARK THEME + BLOOD RED DETAILS */
+body {
+    background-color: #111;
+    color: #eee;
+}
+.hero {
+    background-color: #000;
+    border-bottom: 5px solid #b71c1c;
+}
+nav a {
+    color: #eee;
+}
+nav a:hover {
+    color: #f57c00;
+}
+.seccion {
+    padding: 60px 20px;
+    border-top: 2px solid #b71c1c;
+    border-bottom: 2px solid #b71c1c;
+    background: #1c1c1c;
+}
+h2 {
+    color: #f57c00;
+}
+blockquote {
+    background-color: #222;
+    color: #f5f5f5;
+    border-left: 5px solid #b71c1c;
+}
+details {
+    background: #1f1f1f;
+    color: #f5f5f5;
+    border-left: 4px solid #b71c1c;
+}
+form {
+    background: #1a1a1a;
+    border: 1px solid #b71c1c;
+}
+form input, form textarea {
+    background-color: #2a2a2a;
+    color: #fff;
+    border: 1px solid #555;
+}
+form button {
+    background-color: #b71c1c;
+    color: white;
+}
+form button:hover {
+    background-color: #a11919;
+}
+footer {
+    background-color: #000;
+    color: #ccc;
+    border-top: 4px solid #b71c1c;
+}
+
+/* Mejorar contraste de texto en párrafos */
+.seccion p {
+    color: #111 !important;
+}
+details p {
+    color: #111 !important;
+}
+blockquote {
+    color: #111 !important;
+}
+form input, form textarea {
+    color: #111 !important;
+}
+
+
+/* Estilo final: Rojo, Negro, Dorado */
+body {
+    background-color: #111;
+    color: #ffd700;
+}
+h1, h2, h3 {
+    color: #ffd700;
+}
+nav a {
+    color: #ffd700;
+}
+nav a:hover {
+    color: #b71c1c;
+}
+.hero {
+    background-color: #000;
+    border-bottom: 5px solid #b71c1c;
+}
+.seccion {
+    background: #1a1a1a;
+    border-top: 2px solid #b71c1c;
+    border-bottom: 2px solid #b71c1c;
+    padding: 60px 20px;
+}
+.seccion p {
+    color: #ffd700;
+}
+details {
+    background-color: #222;
+    border-left: 4px solid #b71c1c;
+    color: #ffd700;
+}
+form {
+    background: #1a1a1a;
+    border: 1px solid #b71c1c;
+}
+form input, form textarea {
+    background-color: #000;
+    color: #ffd700;
+    border: 1px solid #b71c1c;
+}
+form button {
+    background-color: #b71c1c;
+    color: #fff;
+}
+form button:hover {
+    background-color: #8c1212;
+}
+blockquote {
+    background-color: #222;
+    border-left: 5px solid #b71c1c;
+    color: #ffd700;
+}
+footer {
+    background-color: #000;
+    color: #ffd700;
+    border-top: 4px solid #b71c1c;
+}
+
+
+/* Fondo general más oscuro con grises */
+body {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+.hero {
+    background-color: #121212;
+    border-bottom: 3px solid #b71c1c;
+}
+nav {
+    background-color: #1f1f1f;
+}
+nav a {
+    color: #ffd700;
+}
+nav a:hover {
+    color: #b71c1c;
+}
+.seccion {
+    background: #222;
+    color: #ddd;
+}
+blockquote {
+    background-color: #2a2a2a;
+    color: #ffd700;
+}
+details {
+    background: #2c2c2c;
+    color: #ddd;
+}
+form {
+    background: #1e1e1e;
+    border: 1px solid #444;
+}
+form input, form textarea {
+    background-color: #292929;
+    color: #ffd700;
+}
+footer {
+    background-color: #131313;
+    color: #999;
+}
+
+
+/* Ajustes finales: remover azules y tonos claros, mantener solo NEGRO, ROJO, ORO */
+
+/* Fondo general y navegación */
+body {
+    background-color: #1a1a1a;
+    color: #ffd700;
+}
+nav {
+    background-color: #121212;
+}
+nav a {
+    color: #ffd700;
+}
+nav a:hover {
+    color: #b71c1c;
+}
+
+/* Cabecera */
+.hero {
+    background-color: #111;
+    border-bottom: 3px solid #b71c1c;
+}
+.logo {
+    filter: brightness(1.2);
+}
+
+/* Secciones con solo gris, negro, rojo y oro */
+.seccion.bg1, .seccion.bg2, .seccion.bg3, .seccion {
+    background-color: #222;
+    border-top: 2px solid #b71c1c;
+    border-bottom: 2px solid #b71c1c;
+    color: #ffd700;
+}
+h1, h2, h3 {
+    color: #ffd700;
+}
+p, li {
+    color: #ffd700;
+}
+blockquote {
+    background-color: #1f1f1f;
+    color: #ffd700;
+    border-left: 5px solid #b71c1c;
+}
+details {
+    background: #1b1b1b;
+    border-left: 4px solid #b71c1c;
+    color: #ffd700;
+}
+
+/* Formularios */
+form {
+    background-color: #1d1d1d;
+    border: 1px solid #b71c1c;
+}
+form input, form textarea {
+    background-color: #292929;
+    color: #ffd700;
+    border: 1px solid #555;
+}
+form button {
+    background-color: #b71c1c;
+    color: #fff;
+}
+form button:hover {
+    background-color: #8c1212;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: #ffd700;
+    border-top: 4px solid #b71c1c;
+}
+
+
+/* Corrección final: eliminar fondos claros, rosados o azules, usar solo negro, rojo y oro */
+.seccion.bg1, .seccion.bg2, .seccion.bg3, .seccion {
+    background-color: #1a1a1a !important;
+    color: #ffd700 !important;
+}
+.seccion.bg1 p,
+.seccion.bg2 p,
+.seccion.bg3 p,
+.seccion p,
+.seccion li,
+details p,
+blockquote {
+    color: #ffd700 !important;
+}
+details summary {
+    color: #ffd700 !important;
+}
+blockquote {
+    background-color: #111 !important;
+    border-left: 5px solid #b71c1c;
+}
+form {
+    background-color: #121212 !important;
+    border: 1px solid #b71c1c;
+}
+form input, form textarea {
+    background-color: #1e1e1e !important;
+    color: #ffd700 !important;
+}
+form button {
+    background-color: #b71c1c;
+    color: white;
+}
+form button:hover {
+    background-color: #8c1212;
+}
+footer {
+    background-color: #000 !important;
+    color: #ffd700 !important;
+}
+
+
+/* Eliminación total de tonos claros no deseados (rosados, azules, grises claros) */
+
+body {
+    background-color: #000 !important;
+    color: #ffd700;
+}
+
+.hero, nav, footer {
+    background-color: #000 !important;
+    color: #ffd700;
+    border: none;
+}
+
+.seccion, .seccion.bg1, .seccion.bg2, .seccion.bg3 {
+    background-color: #000 !important;
+    color: #ffd700 !important;
+    border-top: 2px solid #b71c1c;
+    border-bottom: 2px solid #b71c1c;
+}
+
+p, li, h2, h3, h4, h5, h6, a, span, strong, em {
+    color: #ffd700 !important;
+}
+
+blockquote {
+    background-color: #000 !important;
+    color: #ffd700 !important;
+    border-left: 5px solid #b71c1c !important;
+}
+
+details {
+    background: #000 !important;
+    color: #ffd700 !important;
+    border-left: 4px solid #b71c1c !important;
+}
+
+form {
+    background-color: #000 !important;
+    border: 1px solid #b71c1c !important;
+}
+form input, form textarea {
+    background-color: #1a1a1a !important;
+    color: #ffd700 !important;
+    border: 1px solid #b71c1c !important;
+}
+form button {
+    background-color: #b71c1c;
+    color: white;
+}
+form button:hover {
+    background-color: #8c1212;
+}
+
+
+/* FORZAR fondo negro y texto dorado en TODAS las secciones */
+.seccion, .seccion.bg1, .seccion.bg2, .seccion.bg3 {
+    background: #000 !important;
+    background-color: #000 !important;
+    color: #ffd700 !important;
+    border-top: 2px solid #b71c1c !important;
+    border-bottom: 2px solid #b71c1c !important;
+}
+
+/* Eliminar cualquier degradado o fondo inline heredado */
+body, html, section, article, div {
+    background-image: none !important;
+    background-color: #000 !important;
+    color: #ffd700 !important;
+}
+
+/* Bloques comunes */
+p, li, blockquote, details, span, strong {
+    color: #ffd700 !important;
+    background-color: transparent !important;
+}
+
+blockquote {
+    background-color: #000 !important;
+    border-left: 5px solid #b71c1c !important;
+}
+
+details {
+    background: #000 !important;
+    border-left: 4px solid #b71c1c !important;
+}
+
+/* Formulario */
+form {
+    background: #000 !important;
+    color: #ffd700 !important;
+    border: 1px solid #b71c1c !important;
+}
+form input, form textarea {
+    background-color: #111 !important;
+    color: #ffd700 !important;
+    border: 1px solid #b71c1c !important;
+}
+form button {
+    background-color: #b71c1c !important;
+    color: white !important;
+}
+form button:hover {
+    background-color: #8c1212 !important;
+}
+
+/* Navbar y footer */
+.hero, nav, footer {
+    background-color: #000 !important;
+    color: #ffd700 !important;
+    border: none !important;
+}
+
+
+/* Corrección específica para eliminar fondos claros en todas las secciones */
+.seccion, .seccion.bg1, .seccion.bg2, .seccion.bg3, section {
+    background-color: #000 !important;
+    background-image: none !important;
+    color: #ffd700 !important;
+}
+
+/* Asegurar colores de texto */
+h1, h2, h3, h4, h5, h6, p, li, span, a {
+    color: #ffd700 !important;
+}
+
+/* Reforzar para eliminar estilos heredados inline */
+section[style], .seccion[style] {
+    background: #000 !important;
+    color: #ffd700 !important;
+}
+
+
+/* Mejora visual con mezcla de colores institucionales */
+
+body {
+    background-color: #000;
+    color: #ffd700;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Encabezado */
+.hero {
+    background-color: #111;
+    border-bottom: 4px solid #b71c1c;
+}
+.hero h1 {
+    color: #ffd700;
+}
+
+/* Navegación */
+nav {
+    background-color: #000;
+}
+nav a {
+    color: #ffd700;
+}
+nav a:hover {
+    color: #f57c00;
+}
+
+/* Secciones alternadas */
+.seccion:nth-of-type(odd) {
+    background-color: #111 !important;
+    color: #ffd700 !important;
+}
+.seccion:nth-of-type(even) {
+    background-color: #1c1c1c !important;
+    color: #f57c00 !important;
+}
+.seccion h2 {
+    color: #f57c00;
+}
+.seccion:nth-of-type(even) h2 {
+    color: #ffd700;
+}
+
+/* Blockquotes */
+blockquote {
+    background-color: #1a1a1a;
+    border-left: 5px solid #b71c1c;
+    color: #ffd700;
+}
+
+/* Formulario */
+form {
+    background-color: #111;
+    border: 1px solid #b71c1c;
+}
+form input, form textarea {
+    background-color: #000;
+    color: #ffd700;
+    border: 1px solid #444;
+}
+form button {
+    background-color: #b71c1c;
+    color: white;
+}
+form button:hover {
+    background-color: #f57c00;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: #ffd700;
+    border-top: 3px solid #b71c1c;
+}
+
+
+/* Toque moderno y juguetón */
+
+body {
+    transition: background 0.5s ease, color 0.5s ease;
+}
+
+h1, h2, h3 {
+    transition: color 0.3s ease;
+}
+
+a, button, .logo, nav a {
+    transition: all 0.3s ease;
+}
+
+.seccion {
+    padding: 60px 25px;
+    border-radius: 10px;
+    margin: 30px 10px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.05);
+}
+
+/* Efectos hover sutiles */
+nav a:hover, .seccion h2:hover {
+    color: #f57c00;
+    transform: scale(1.02);
+}
+
+form input, form textarea, form button {
+    border-radius: 8px;
+}
+
+form button {
+    box-shadow: 0 0 10px rgba(183, 28, 28, 0.4);
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+form button:hover {
+    transform: scale(1.05);
+}
+
+/* Galería e íconos opcionales si existieran */
+.galeria img {
+    transition: transform 0.4s ease, filter 0.3s ease;
+    border: 2px solid #b71c1c;
+}
+.galeria img:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+
+/* Cajas decorativas animadas para secciones */
+.seccion::before {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 60px;
+    margin-bottom: 15px;
+    background: linear-gradient(to right, #b71c1c, #f57c00);
+    border-radius: 3px;
+}
